@@ -32,7 +32,7 @@ namespace BenzersizSayiOdeviNTP
 
                 for (int i = 0; i < sayilar.Length; i++)// diziye değer atamaları için for döngüsü kullanıldı
                 {
-                    sayilar[i] = rnd.Next(10);// diziye değer atamaları yapılır
+                    sayilar[i] = rnd.Next(minsay, maxsay);// diziye değer atamaları yapılır
                 }
 
                 while (knt < sayi)//Diziye atanan değerlerin kontrolü ve düzenlenmesi için while döngüsü kullanıldı
